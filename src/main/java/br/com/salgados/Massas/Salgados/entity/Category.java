@@ -1,4 +1,4 @@
-package entity;
+package br.com.salgados.Massas.Salgados.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
