@@ -3,6 +3,9 @@ package br.com.salgados.Massas.Salgados.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "category")
 @Getter

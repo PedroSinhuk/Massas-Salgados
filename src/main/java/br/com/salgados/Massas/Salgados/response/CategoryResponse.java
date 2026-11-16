@@ -1,4 +1,7 @@
 package br.com.salgados.Massas.Salgados.response;
 
-public class CategoryResponse {
+import lombok.Builder;
+
+@Builder
+public record CategoryResponse (Long id, String name) {
 }
